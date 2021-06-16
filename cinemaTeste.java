@@ -182,6 +182,7 @@ public class cinemaTeste {
                         break;
                     }
                 }
+                break;
                 case 2:
                 System.out.println("ok vamos continuar" +
                 "\nvocê possue alguma necessidade especial?"+
@@ -195,7 +196,7 @@ public class cinemaTeste {
                     "\nQuantos ingressos seriam ?");
                     qntEspeciais = sc.nextInt();
 
-                    while (FileiraAlpha_1Es < qntEspeciais){
+                    while (FileiraBeta_1Es < qntEspeciais){
                         System.out.println("Não temos a quantidades de lugares disponível" +
                         "\nNos temos apenas "+ FileiraBeta_1Es + " lugares."+
                         "\nQuantos ingressos seriam ?");
