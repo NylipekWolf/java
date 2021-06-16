@@ -23,13 +23,40 @@ public class exercicio7 {
             double n9 = sc.nextDouble();
         System.out.println ("Informe o décimo valor: ");
             double n10 = sc.nextDouble();
-
-            double soma = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10;
         
             double soma40 = 0;
-        if(n1 < 40){
-            soma + n1
-        }
 
+        if(n1 < 40){
+            soma40 += n1;
+        }
+        if(n2 < 40){
+            soma40 += n2;
+        }
+        if(n3 < 40){
+            soma40 += n3;
+        }
+        if(n4 < 40){
+            soma40 += n4;
+        }
+        if(n5 < 40){
+            soma40 += n5;
+        }
+        if(n6 < 40){
+            soma40 += n6;
+        }
+        if(n7 < 40){
+            soma40 += n7;
+        }
+        if(n8 < 40){
+            soma40 += n8;
+        }
+        if(n9 < 40){
+            soma40 += n9;
+        }
+        if(n10 < 40){
+            soma40 += n10;
+        }
+        System.out.println("a soma dos valores foi " + soma40);
+        sc.close();
     }
 }

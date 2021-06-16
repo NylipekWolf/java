@@ -20,6 +20,7 @@ public class exercicio2 {
         else{
             System.out.println("o maior numero foi :" + n3);
         }
+        sc.close();
     
     }    
 }

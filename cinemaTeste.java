@@ -307,6 +307,7 @@ public class cinemaTeste {
             }
             System.out.println("\nDeseja continuar executando o programa? (1 = sim / 2 = nao)");
             continuar = sc.nextInt();
+            sc.close();
         }
     }
 }

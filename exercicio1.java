@@ -5,8 +5,8 @@ public class exercicio1 {
         System.out.println("ola voce!");
         System.out.println("bem-vindo ao leitor de numeros, descubra se e negativo ou posisitivo");
 
-        Scanner scanner = new Scanner(System.in);
-        int num = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
 
         if(num>0){
         System.out.println("o valor foi positivo");
@@ -14,6 +14,7 @@ public class exercicio1 {
         else{
             System.out.println("o valor foi nagativo");
         }
+        sc.close();
     
     }
 }

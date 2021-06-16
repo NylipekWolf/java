@@ -26,6 +26,7 @@ public class exercicio4 {
             System.out.println("O resultado final foi: " + calculo4);
             break;
         }
+        sc.close();
 
     }
 }

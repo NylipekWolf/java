@@ -27,6 +27,6 @@ public class exercicio6 {
             double soma = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10;
 
         System.out.println ("A soma total dos valores inseridos é: " + soma); 
-
+        sc.close();
     }
 }

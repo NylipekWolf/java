@@ -11,6 +11,7 @@ public class exercicio5 {
             }
         if (n1 < 0 && n2 < 0 ) {
             System.out.println ("Falso.");
-            }
+        }
+        sc.close();
     }
 }
