@@ -85,9 +85,6 @@ public class cinemaTeste {
                             System.out.println("Compra realizada com sucesso!"+
                             "\nVocê comprou " + qntIngressos + " ingressos na fileira A para o filme As branquelas" +
                             "\nTenha um otimo filme, esperamos a sua volta senhor(a) " + nome + ".");
-                            System.out.println("Compra realizada com sucesso!"+
-                            "\nVocê comprou " + qntIngressos + " ingressos na fileira A para o filme As branquelas" +
-                            "\nTenha um otimo filme, esperamos a sua volta senhor(a) " + nome + ".");
                         }
                         break;
                         
@@ -308,8 +305,8 @@ public class cinemaTeste {
                     }
                 }    
             }
-        System.out.println("\nDeseja continuar executando o programa? (1 = sim / 2 = nao)");
-        continuar = sc.nextInt();
+            System.out.println("\nDeseja continuar executando o programa? (1 = sim / 2 = nao)");
+            continuar = sc.nextInt();
         }
     }
 }
