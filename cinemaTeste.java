@@ -74,7 +74,7 @@ public class cinemaTeste {
 
                     switch(fileira){
                         case 1:
-                        if(FileiraAlpha_1 >= 10){
+                        if(qntIngressos >= 10){
                             System.out.println("Nao possuímos lugares o suficiente na fileira escolhida " +
                             "tente novamente."+
                             "\n fileira A tem 10 lugares disponíveis");
@@ -89,7 +89,7 @@ public class cinemaTeste {
                         break;
                         
                         case 2:
-                        if(FileiraAlpha_2 >= 26){
+                        if(qntIngressos >= 26){
                             System.out.println("Nao possuímos lugares o suficiente na fileira escolhida " +
                             "tente novamente."+
                             "\n fileira A tem 26 lugares disponíveis");
@@ -107,7 +107,7 @@ public class cinemaTeste {
                         break;
 
                         case 3:
-                        if(FileiraAlpha_3 >= 26){
+                        if(qntIngressos >= 26){
                             System.out.println("Nao possuímos lugares o suficiente na fileira escolhida " +
                             "tente novamente."+
                             "\n fileira A tem 26 lugares disponíveis");
@@ -125,7 +125,7 @@ public class cinemaTeste {
                         break;
 
                         case 4:
-                        if(FileiraAlpha_4 >= 26){
+                        if(qntIngressos >= 26){
                             System.out.println("Nao possuímos lugares o suficiente na fileira escolhida " +
                             "tente novamente."+
                             "\n fileira A tem 26 lugares disponíveis");
@@ -143,7 +143,7 @@ public class cinemaTeste {
                         break;
 
                         case 5:
-                        if(FileiraAlpha_5 >= 26){
+                        if(qntIngressos >= 26){
                             System.out.println("Nao possuímos lugares o suficiente na fileira escolhida " +
                             "tente novamente."+
                             "\n fileira A tem 26 lugares disponíveis");
@@ -161,7 +161,7 @@ public class cinemaTeste {
                         break;
 
                         case 6:
-                        if(FileiraAlpha_6 >= 26){
+                        if(qntIngressos >= 26){
                             System.out.println("Nao possuímos lugares o suficiente na fileira escolhida " +
                             "tente novamente."+
                             "\n fileira A tem 26 lugares disponíveis");
@@ -214,7 +214,7 @@ public class cinemaTeste {
 
                     switch(fileira){
                         case 1:
-                        if(FileiraBeta_1 >= 18){
+                        if(qntIngressos >= 18){
                             System.out.println("Nao possuímos lugares o suficiente na fileira escolhida " +
                             "tente novamente."+
                             "\n fileira A tem 18 lugares disponíveis");
@@ -232,7 +232,7 @@ public class cinemaTeste {
                         break;
                         
                         case 2:
-                        if(FileiraBeta_2 >= 25){
+                        if(qntIngressos >= 25){
                             System.out.println("Nao possuímos lugares o suficiente na fileira escolhida " +
                             "tente novamente."+
                             "\n fileira B tem 25 lugares disponíveis");
@@ -250,7 +250,7 @@ public class cinemaTeste {
                         break;
 
                         case 3:
-                        if(FileiraBeta_3 >= 25){
+                        if(qntIngressos >= 25){
                             System.out.println("Nao possuímos lugares o suficiente na fileira escolhida " +
                             "tente novamente."+
                             "\n fileira C tem 25 lugares disponíveis");
@@ -268,7 +268,7 @@ public class cinemaTeste {
                         break;
 
                         case 4:
-                        if(FileiraBeta_4 >= 25){
+                        if(qntIngressos >= 25){
                             System.out.println("Nao possuímos lugares o suficiente na fileira escolhida " +
                             "tente novamente."+
                             "\n fileira D tem 25 lugares disponíveis");
@@ -286,7 +286,7 @@ public class cinemaTeste {
                         break;
 
                         case 5:
-                        if(FileiraBeta_5 >= 25){
+                        if(qntIngressos >= 25){
                             System.out.println("Nao possuímos lugares o suficiente na fileira escolhida " +
                             "tente novamente."+
                             "\n fileira E tem 25 lugares disponíveis");
@@ -307,7 +307,7 @@ public class cinemaTeste {
             }
             System.out.println("\nDeseja continuar executando o programa? (1 = sim / 2 = nao)");
             continuar = sc.nextInt();
-            sc.close();
         }
+        sc.close();
     }
 }
