@@ -12,7 +12,7 @@ public class App {
         String chars = "abcdefghiklmnopqrstuvwxyz";
         String numeros = "0123456789";
         String symbols = "!@#$%¨&*()_/.<>";
-        String passSymbols = charsCaps + chars + nums + symbols;
+        String passSymbols = charsCaps + chars + numeros + symbols;
         Random rnd = new Random();
         char[] password = new char[len];
         for(int i = 0; i < len; i++){
